@@ -542,8 +542,7 @@ letter-spacing: 0.04px;
 	
 }
 .container--brand{
-	margin-top: 2.4%;
-	margin-top: 1.25%;
+	margin-top: 2.6%;
 }
 .block{
 	display: inline-block;
@@ -618,7 +617,7 @@ letter-spacing: -0.5px;
 }
 
 .col__name--gray{
-	font-style: 48px;
+	font-size: 48px;
 	color: #b9b9b9;
 }
 .col__name--copy{
@@ -679,7 +678,7 @@ word-wrap: break-word;
     margin-top: -1%;
     letter-spacing: -0.071px;
 }
-}
+
 .col--info{
 	min-height: 396px;
 	width: 33.333333333333336%;
@@ -692,12 +691,12 @@ footer{
 .nav--footer {
 	margin-top: 4.7%;
 	float: left;
-	    max-width: 530px;
-    width: 56%;
+	  max-width: 590px;
+width: 62%;
 }
-}
+
 .menu--footer{
-	width: auto;
+	width: 91%;
 }
 .menu--footer .menu__link{
 	font-size: 20px;
@@ -1225,7 +1224,7 @@ display: block;
 height: 29px;
 }
 .menu--top .menu__element:first-child:hover{
-border-radius: 5px
+border-radius: 5px;
 padding-top:0;
 /*border-bottom: none;*/
 box-sizing: border-box;
