@@ -2,26 +2,41 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />   
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Pingbuller</title>
-	<style>
 	
-		
-		footer{
-		background-image: url(img/bg_footer.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-		background-color: #e3e3e3;
-		}
 
-		
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" /> -->
 
-		
-	</style>
+	<!--[if gte IE 8]>
+		<link rel="stylesheet" type="text/css" href="css/style-ie.css">
+  		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+
+
+	<!--[if lte IE 9]><link rel="stylesheet" href="../css/style_ie.css"  type="text/css" /><![endif]-->
+
+	
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!--[if gte IE 8]>
+		<script>
+	      document.createElement('header');
+	      document.createElement('nav');
+	      document.createElement('section');
+	      document.createElement('article');
+	      document.createElement('aside');
+	      document.createElement('footer');
+   		</script>
+	<![endif]-->
+
+	<title>Pingbuller</title>
+
 </head>
 <body>
 		<header>
@@ -30,7 +45,7 @@
 				<div class="container container--head-top">
 					<div class="logo">
 						<a class="logo__img" href="#">
-							<img src="img/logo.png" alt="">
+							<img class="logo-img" src="img/logo.png" alt="" border="0">
 						</a>
 					</div>
 
@@ -68,17 +83,32 @@
 			</div>
 
 			<div class="slider">
+
+				<!--[if gte IE 8]>
+					   
+				<img class="bg-slider-ie" src="img/bg-slider-ie.jpg" alt="" >
+
+
+				<![endif]-->
+
+
+
+
 				<div class="container">
-					<div class="sprite-arrow sprite-arrow--left">
+					<a href="">
+						<div class="sprite-arrow sprite-arrow--left">
 						
-					</div>
-					<div class="sprite-arrow sprite-arrow--right">
+						</div>
+					</a>
+					<a href=""> 
+						<div class="sprite-arrow sprite-arrow--right">
 						
-					</div>
+						</div>
+					</a>
 					<div class="phone">
 						<img src="img/iphone-copy.png" class="phone__iphone-copy" alt="">
 						<img src="img/iphone.png" class="phone__iphone" alt="">
-						<img src="img/play-btn.png" class="phone__play" alt="">
+						<a href=""><img src="img/play-btn.png" class="phone__play" alt=""></a>
 						<img src="img/Iphone-480.png" class="phone__480" alt="">
 					</div>
 					<div class="col-slider">
@@ -90,13 +120,16 @@
 			<div class="container container--name">
 				<a href="" class="col__name col__name--320"><span class="col__name--slider"> Lorem Ipsum Dolor</span><br><span class="col__name--pink-slider">it will make all of your dreams come </span></a>
 
-					<div class="sprite-arrow sprite-arrow--left">
+					<a href="">
+						<div class="sprite-arrow sprite-arrow--left">
 						
-					</div>
-					<div class="sprite-arrow sprite-arrow--right">
+						</div>
+					</a>
+					<a href="">
+						<div class="sprite-arrow sprite-arrow--right">
 						
-					</div>
-
+						</div>
+					</a>
 
 			</div>
 
@@ -104,10 +137,10 @@
 				<div class="container">
 					<div class="switch">
 						<ul class="switcher">
-							<li class="switcher__item"><img class="switcher__hov" src="img/hover-sw.png" alt=""></li>
-							<li class="switcher__item"><img class="switcher__hov" src="img/hover-sw.png" alt=""></li>
-							<li class="switcher__item"><img class="switcher__hov" src="img/hover-sw.png" alt=""></li>
-							<li class="switcher__item"><img class="switcher__hov" src="img/hover-sw.png" alt=""></li>
+							<li class="switcher__item"><a href=""><img class="switcher__hov" src="img/hover-sw_1.png" alt=""></a></li>
+							<li class="switcher__item"><a href=""><img class="switcher__hov" src="img/hover-sw_1.png" alt=""></a></li>
+							<li class="switcher__item"><a href=""><img class="switcher__hov" src="img/hover-sw_1.png" alt=""></a></li>
+							<li class="switcher__item"><a href=""><img class="switcher__hov" src="img/hover-sw_1.png" alt=""></a></li>
 						</ul>
 					</div>	
 				</div>
@@ -117,6 +150,18 @@
 		</header>
 
 			<div class="about">
+
+
+					<!--[if gte IE 8]>
+  
+					<img class="bg-ab-ie" src="img/bg-ab-ie.jpg" alt="">
+
+
+
+					<![endif]-->
+
+
+
 				<div class="container">
 					<div class="row">
 						<div class="col col--left">
@@ -127,7 +172,7 @@
 
 							<h2 class="name__about name__about--left">ABOUT OUR COMPANY</h2>
 							<p class="text__about text__about--left">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po&shy;suere. Pel&shy;lentesque vel lacus eget nisi convallis auctor. Nam</p>
-							<a class="col__readmore" href=""> read more</a>
+							<a class="col__readmore" href=""><span class="read-more-left"> read more</span></a>
 						</div>
 
 						<div class="col col--middle">
@@ -138,7 +183,7 @@
 
 							<h2 class="name__about name__about--mid">ABOUT OUR COMPANY</h2>
 							<p class="text__about text__about--mid">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po&shy;suere. Pel&shy;lentesque vel lacus eget nisi convallis auctor. Nam</p>
-							<a class="col__readmore col__readmore--mid" href=""> read more</a>
+							<a class="col__readmore col__readmore--mid" href=""><span class="read-more-mid"> read more</span></a>
 						</div>
 
 						<div class="col col--right">
@@ -149,7 +194,7 @@
 
 							<h2 class="name__about name__about--right">ABOUT OUR COMPANY</h2>
 							<p class="text__about text__about--right">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po&shy;suere. Pel&shy;lentesque vel lacus eget nisi convallis auctor. Nam</p>
-							<a class="col__readmore col__readmore--right" href=""> read more</a>
+							<a class="col__readmore col__readmore--right" href=""><span class="read-more-right"> read more</span></a>
 						</div>
 
 					</div>
@@ -163,15 +208,15 @@
 							<div class="col col--article">
 								<a class="col__link" href="">
 									<h2 class="col__name col__name--article">PINGBULLER <span class="col__name--pink" >STARTS HERE</span></h2>
-									<p class="col__text col__text--article">“Nunc turpis neque, feu&shy;giat eget eleifend et, lacinia non neque. Prae&shy;sent rhoncus ultrices po&shy;suere. Pellentesque vel lacus eget nisi <span>conval<br>lis</span> auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</p>
+									<p class="col__text col__text--article">“Nunc turpis neque, feu&shy;giat eget eleifend et, lacinia non neque. Prae&shy;sent rhoncus ultrices po&shy;suere. Pellentesque vel lacus eget nisi <span class="word"> convallis</span> auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</p>
 									<img class="col__icon col__icon--article" src="img/article_icon.png" alt="">
 								</a>
 								<div class="switcher-white">
 									<ul class="switcher switcher--white">
-										<li class="switcher__item"><img class="switcher__hov--white" src="img/hover.png" alt=""></li>
-										<li class="switcher__item"><img class="switcher__hov--white" src="img/hover.png" alt=""></li>
-										<li class="switcher__item"><img class="switcher__hov--white" src="img/hover.png" alt=""></li>
-										<li class="switcher__item"><img class="switcher__hov--white" src="img/hover.png" alt=""></li>
+										<li class="switcher__item"><a href=""><img class="switcher__hov--white" src="img/hover.png" alt=""></a></li>
+										<li class="switcher__item"><a href=""><img class="switcher__hov--white" src="img/hover.png" alt=""></a></li>
+										<li class="switcher__item"><a href=""><img class="switcher__hov--white" src="img/hover.png" alt=""></a></li>
+										<li class="switcher__item"><a href=""><img class="switcher__hov--white" src="img/hover.png" alt=""></a></li>
 									</ul>
 								</div>	
 							</div>
@@ -183,16 +228,16 @@
 							
 								<div class="col col--update">
 									<div class="sprite-upd sprite-upd--top">
-										<a href="" class="sprite-upd__link">link</a>
+										<a href="" class="sprite-upd__link"></a>
 									</div>
-									<a href="" class="col__title" >Nunc turpis neque <span class="hide-320">feugiat eget</span></a>
+									<a href="" class="col__title col__title--top" >Nunc turpis neque <span class="hide-320">feugiat eget</span></a>
 									<p class="col__text col__text--update">Posted by Admin on March <span class="col__text col__text--update-1">13<span class="hide-320"> 2012<span class="hide-upd"> in Recent News</span></span></span></p>
 									
 								</div>
 
 								<div class="col col--update">
 									<div class="sprite-upd sprite-upd--mid">
-										<a class="sprite-upd__link" href="">link</a>
+										<a class="sprite-upd__link" href=""></a>
 									</div>
 									<a href="" class="col__title col__title--mid" >Nunc turpis neque <span class="hide-320">feugiat eget</span></a>
 									<p class="col__text col__text--update-mid">Posted by Admin on March <span class="col__text col__text--update-2">13 <span class="hide-320">2012<span class="hide-upd"> in Category</span></span></span></p>
@@ -200,10 +245,10 @@
 
 								<div class="col col--update">
 									<div class="sprite-upd sprite-upd--bot">
-										<a class="sprite-upd__link" href="">link</a>
+										<a class="sprite-upd__link" href=""></a>
 									</div>
 									<a href="" class="col__title col__title--bot" >Nunc turpis neque <span class="hide-320">feugiat eget</span></a>
-									<p class="col__text col__text--update-bot">Posted by Admin on March <span class="col__text col__text--update-3">13 <span class="hide-upd">2012 in Blog Updates</span></span></p>
+									<p class="col__text col__text--update-bot">Posted by Admin on March <span class="col__text col__text--update-3">13 <span class="hide-320">2012<span class="hide-upd"> in Blog Updates</span></span></span></p>
 								</div>
 								
 								<a class="col__readmore col__readmore--update" href=""><span class="read-more-1"> read more here</span><span class="read-more-2">MORE BLOG POSTS</span></a>
@@ -224,32 +269,32 @@
 				<div class="container container--brand">
 					<div class="block block--1">
 						<div class="sprite-logo sprite-logo--first ">
-							<a class="sprite-logo__link" href="">link</a>
+							<a class="sprite-logo__link" href=""></a>
 						</div>
 					</div>
 					<div class="block block--2">
 						<div class="sprite-logo sprite-logo--second">
-							<a class="sprite-logo__link" href="">link</a>
+							<a class="sprite-logo__link" href=""></a>
 						</div>
 					</div>
 					<div class="block block--3">
 						<div class="sprite-logo sprite-logo--third">
-							<a class="sprite-logo__link" href="">link</a>
+							<a class="sprite-logo__link" href=""></a>
 						</div>
 					</div>
 					<div class="block block--4">
 						<div class="sprite-logo sprite-logo--forth">
-							<a class="sprite-logo__link" href="">link</a>
+							<a class="sprite-logo__link" href=""></a>
 						</div>
 					</div>	
 					<div class="block block--5">
 						<div class="sprite-logo sprite-logo--fifth">
-							<a class="sprite-logo__link" href="">link</a>
+							<a class="sprite-logo__link" href=""></a>
 						</div>
 					</div>
 					<div class="block block--last">
 						<div class="sprite-logo sprite-logo--sixth">
-							<a class="sprite-logo__link" href="">link</a>
+							<a class="sprite-logo__link" href=""></a>
 						</div>
 					</div>
 				</div>
@@ -276,6 +321,10 @@
 			</div>
 
 			<footer>
+
+				
+
+
 				<div class="container">
 					<nav class=" nav nav--footer">
 
@@ -306,14 +355,11 @@
 					</nav>
 
 					<div class="des-by">
-						<p class="des-by__text">Designed by <span class="des-by__text--bold">Pingbull AS</span></p>
+					<a href="" class="des-by__text"><span class="des-by__link"> Designed by</span><span class="des-by__text--bold">Pingbull AS</span></a>
 					</div>
 
 				</div>
 			</footer>
-
-
-			
 
 
 

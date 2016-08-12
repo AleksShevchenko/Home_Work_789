@@ -44,6 +44,7 @@
 @font-face {
     font-family: 'open_sansregular';
     src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.eot') ,
          url('../fonts/opensans-regular-webfont.woff') format('woff'),
          url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
          url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
@@ -73,8 +74,19 @@
 
 
 @font-face {
+    font-family: 'open_sans_extraboldregular';
+    src: url('../fonts/opensansextrabold-webfont.eot');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
     font-family: 'open_sansextrabold';
     src: url('../fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-extrabold-webfont.eot') format('eot'),
          url('../fonts/opensans-extrabold-webfont.woff') format('woff'),
          url('../fonts/opensans-extrabold-webfont.ttf') format('truetype'),
          url('../fonts/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
